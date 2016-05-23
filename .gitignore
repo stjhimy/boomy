@@ -1,0 +1,15 @@
+*~
+coverage/*
+*.sqlite3
+.bundle
+rdoc/*
+pkg
+log
+test/tmp/*
+spec/tmp/*
+spec/fixtures/*.MP4
+spec/fixtures/*.jpg
+spec/fixtures/*.png
+dummy
+*.gem
+Gemfile.lock
