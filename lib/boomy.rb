@@ -1,5 +1,6 @@
+# Docs
 class Boomy
-  def initialize(opts={})
+  def initialize(opts = {})
     @input = opts[:input]
     @interval = opts[:interval]
   end
