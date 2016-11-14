@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  s.add_dependency 'activesupport',               '~> 4.2'
+  s.add_dependency 'activesupport',               '>= 3.0'
   s.add_dependency 'mini_exiftool',               '~> 2.5'
   s.add_dependency 'ruby-progressbar',            '~> 1.7'
 
